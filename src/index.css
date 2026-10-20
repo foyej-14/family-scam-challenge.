@@ -1,0 +1,33 @@
+:root {
+  --text: #5c6b69;
+  --text-h: #1b2a28;
+  --bg: #f4f8f7;
+  --surface: #ffffff;
+  --border: #dfe7e5;
+  --bar-track: #eef3f2;
+  --accent: #0f766e;
+
+  --sans: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-variant-numeric: tabular-nums;
+}
